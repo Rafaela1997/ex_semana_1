@@ -38,6 +38,7 @@ body {
 }
 h5 {
     text-align: center;
+    text-decoration-line: underline;
 }
 .card-body {
     border: 1px solid orangered;
