@@ -3,8 +3,12 @@
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
+body {
+    background-color: rgba(245, 246, 246, 1);
+}
+
 a:link {
-    color: orangered;
+    color: black
 }
 
 a:visited {
@@ -20,6 +24,10 @@ ul {
     font-size: 1.5rem;
 }
 
+.main {
+    padding: 5rem;
+}
+
 h2 {
     font-size: 3rem;
     text-align: center;
@@ -32,20 +40,22 @@ h4 {
     color: orangered;
 }
 
-.main {
-    padding: 5rem;
+.form-control {
+    border: 1px solid orangered;
 }
 
-h1 {
-    text-align: center;
-    padding-top: 2rem;
+form {
+    padding-left: 25%;
+
 }
 
-p {
-    text-align: center;
-    padding-top: 2rem;
+button {
+    background-color: orangered;
+    color: #ffffff;
+    border: solid 1px transparent;
+    border-radius: 4px;
 }
- 
+
 .footer {
     background-color: orangered;
     color: whitesmoke;

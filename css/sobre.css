@@ -1,9 +1,47 @@
-body{
-    margin: 5pt;
-    padding: 0%;
+* {
+    background-color: rgba(245, 246, 246, 1);
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
-  
+
+a:link {
+    color: black
 }
-.card{
-    border: none;
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    font-size: 110%;
+    color: orangered;
+}
+
+ul {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid orangered;
+}
+
+body {
+    background-color: rgba(245, 246, 246, 1);
+}
+
+.main {
+    padding: 5rem;
+}
+
+h4 {
+    color: orangered;
+}
+
+img {
+    height: 120px;
+    width: 260px;
+
+    object-fit: cover;
 }
