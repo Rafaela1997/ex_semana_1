@@ -46,8 +46,9 @@ p {
     padding-top: 2rem;
 }
  
-.footer {
-    background-color: orangered;
-    color: whitesmoke;
+.footer-copyright {
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
